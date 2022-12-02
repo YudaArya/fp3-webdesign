@@ -62,6 +62,13 @@ span {
   white-space: nowrap;
   line-height: 1;
 }
+.home h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--textColor);
+  white-space: nowrap;
+  line-height: 1;
+}
 .home p {
   font-weight: 400;
   font-size: 1.1rem;
