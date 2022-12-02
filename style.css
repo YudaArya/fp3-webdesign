@@ -1,0 +1,70 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap");
+
+/* variable color */
+:root {
+  --primaryColor: #242e6c;
+  --secondaryColor: #f24b46;
+  --tertiaryColor: #ffffff;
+  --textColor: #455293;
+}
+/* style */
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(pict/back2.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 60vmax;
+}
+
+/*logo navbar */
+.cs-logo {
+  width: 20px;
+  height: 20px;
+  margin-top: -5px;
+}
+/* navbar */
+@media screen and (max-width: 992px) {
+  nav {
+    margin-top: 1em;
+  }
+}
+
+span {
+  color: var(--primaryColor);
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.3em;
+}
+.nav-link {
+  color: var(--tertiaryColor);
+  font-weight: 400;
+  margin-left: 2.4em;
+}
+/* contact button */
+.contact-button {
+  background-color: var(--primaryColor);
+  color: white;
+  border-radius: 2em;
+  border: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* home */
+.home {
+  margin-top: 8em;
+}
+.home h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: var(--primaryColor);
+  white-space: nowrap;
+  line-height: 1;
+}
+.home p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-top: 2em;
+  color: var(--secondaryColor);
+}
