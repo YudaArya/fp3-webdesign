@@ -75,3 +75,7 @@ span {
   margin-top: 2em;
   color: var(--secondaryColor);
 }
+/* about */
+.about {
+  margin-top: 10em;
+}
