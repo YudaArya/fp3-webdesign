@@ -152,11 +152,43 @@ span {
 .about {
   text-align: center;
 }
+.about .deskripsi {
+  font-size: 18px;
+  width: 65%;
+  margin: auto;
+}
 /* service */
 .service {
   text-align: center;
+  background-image: linear-gradient(
+    to top,
+    #020e35 0%,
+    #020e35 21%,
+    #fff 0%,
+    #ffff 100%
+  );
 }
-
+.service img{
+  padding-bottom: 5rem;
+}
+.service h5 {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.service span{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  outline: rgb(252, 248, 248);
+  background-color: #020e35;
+  border-radius: 50%;
+  border: 10px solid #020e35;
+}
 /* work */
 .work {
   background-image: url(pict/work.jpg);
@@ -181,4 +213,34 @@ span {
 .work img {
   border: 7px;
   border-style: groove;
+}
+/*contact*/
+.contact {
+  margin: 3rem 0 2rem;
+}
+.contact .text-contact .text-question {
+  color: var(--text-color);
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.contact .text-contact h1 {
+  color: var(--text-color);
+  font-size: 4rem;
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.contact .text-contact span {
+  color:#ccb800;
+  font-size: 52px;
+}
+.contact .form-contact .btn-contact {
+  color:  white;
+  background:  #020e35;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: none;
 }
