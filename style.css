@@ -165,8 +165,12 @@ span {
 }
 .about .deskripsi {
   font-size: 20px;
-  width: 60%;
+  /* width: 60%; */
   margin: auto;
+}
+.about img {
+  background-size: cover;
+  width: 55vmax;
 }
 /* service */
 .service {
