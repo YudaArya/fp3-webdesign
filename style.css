@@ -283,7 +283,7 @@ span {
   letter-spacing: 1.5px;
 }
 .contact .text-contact span {
-  color: var(--secondaryColor);
+  color: #ccb800;
   font-size: 52px;
 }
 .contact .form-contact .btn-contact {
