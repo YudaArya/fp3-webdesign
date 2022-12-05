@@ -11,6 +11,10 @@
 
 /* desktop version */
 @media (min-width: 992px) {
+  .cs-nav {
+    position: fixed;
+    z-index: 1;
+  }
   .navbar-nav .nav-link {
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -29,7 +33,7 @@
   }
   .jumbotron {
     margin-top: -220px;
-    height: 900px !important;
+    height: 700px !important;
   }
   .jumbotron::after {
     content: "";
@@ -86,7 +90,7 @@ body {
 span {
   color: var(--primaryColor);
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-left: 0.3em;
 }
 .nav-link {
