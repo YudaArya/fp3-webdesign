@@ -66,6 +66,10 @@
     text-align: left !important;
     color: var(--secondaryColor);
   }
+  .about h1 {
+    margin-bottom: 50px;
+    font-size: 26px !important;
+  }
   .about .deskripsi {
     font-size: 20px !important;
     margin: auto;
@@ -75,8 +79,39 @@
     font-weight: 700;
     font-size: 20px !important;
   }
+  .service h1 {
+    margin-bottom: 50px;
+    font-size: 26px !important;
+  }
   .work {
     text-align: left !important;
+  }
+  .work h1 {
+    text-align: center;
+    font-size: 26px !important;
+  }
+  .work h3 {
+    font-weight: 700;
+    font-size: 26px !important;
+  }
+  .work p {
+    font-size: 20px !important;
+  }
+  .contact h1 {
+    font-size: 26px !important;
+  }
+  .contact .text-contact .text-question {
+    color: var(--text-color);
+    font-size: 20px !important;
+    letter-spacing: 1px;
+  }
+  .contact .text-contact h1 {
+    color: var(--text-color);
+    font-size: 52px !important;
+  }
+  .contact .text-contact span {
+    color: #ccb800;
+    font-size: 52px !important;
   }
 }
 
@@ -145,21 +180,23 @@ span {
   margin-top: 1em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   color: var(--primaryColor);
   white-space: nowrap;
   line-height: 1;
+  text-align: center;
 }
 .home h3 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   color: var(--textColor);
   white-space: nowrap;
   line-height: 1;
+  text-align: center;
 }
 .home p {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 18px;
   margin-top: 2em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -180,6 +217,7 @@ span {
 }
 .about h1 {
   margin-bottom: 50px;
+  font-size: 18px;
 }
 .about .deskripsi {
   font-size: 13px;
@@ -196,13 +234,14 @@ span {
 }
 .service h1 {
   margin-bottom: 50px;
+  font-size: 18px;
 }
 .service img {
   padding-bottom: 5rem;
 }
 .service h5 {
   color: white;
-  font-size: 26px;
+  font-size: 18px;
   padding-bottom: 15px;
 }
 .service span {
@@ -230,16 +269,20 @@ span {
 }
 .work h1 {
   text-align: center;
+  font-size: 18px;
 }
 .work h3 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 18px;
 }
 .work h4 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 70px;
-  font-size: 19px;
+  font-size: 16px;
+}
+.work p {
+  font-size: 13px;
 }
 .text-work {
   letter-spacing: 3px;
@@ -270,21 +313,24 @@ span {
 .contact {
   margin: 3rem 0 2rem;
 }
+.contact h1 {
+  font-size: 18px;
+}
 .contact .text-contact .text-question {
   color: var(--text-color);
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 1px;
 }
 .contact .text-contact h1 {
   color: var(--text-color);
-  font-size: 4rem;
+  font-size: 33px;
   margin-top: 10px;
   font-weight: bold;
   letter-spacing: 1.5px;
 }
 .contact .text-contact span {
   color: #ccb800;
-  font-size: 52px;
+  font-size: 33px;
 }
 .contact .form-contact .btn-contact {
   color: white;
