@@ -266,6 +266,7 @@ span {
   margin-top: 23px;
   margin-left: 50px;
   border-style: solid;
+  border-color: var(--button);
   border-width: medium;
   padding-left: 5px;
   padding-right: 5px;
@@ -414,4 +415,27 @@ section {
   margin-top: 1rem;
   border-radius: 8px;
   border: none;
+}
+.modal-title {
+  font-weight: 700;
+}
+.mdl {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.mdbody {
+  text-align: center;
+  margin-top: 1px;
+  font-size: 15px;
+}
+.btn-modal {
+  border-color: var(--button);
+  border-width: medium;
+  border-radius: 1.2em;
+}
+.btn-modal:hover {
+  background-color: var(--button);
+  color: white;
 }
