@@ -7,14 +7,11 @@
   --secondaryColor: #f24b46;
   --tertiaryColor: #ffffff;
   --textColor: #455293;
+  --button: #f24b46;
 }
 
 /* desktop version */
 @media (min-width: 992px) {
-  .cs-nav {
-    position: fixed;
-    z-index: 1;
-  }
   .navbar-nav .nav-link {
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -33,7 +30,7 @@
   }
   .jumbotron {
     margin-top: -220px;
-    height: 700px !important;
+    height: 750px !important;
   }
   .jumbotron::after {
     content: "";
@@ -48,19 +45,19 @@
     border-radius: 2em !important;
     border: 0;
     padding-left: 1em !important;
-    padding-right: 1 em !important;
+    padding-right: 1em !important;
     margin-top: 10px !important;
     text-align: left !important;
   }
   .home img {
-    margin-top: 5em;
+    margin-top: 9em !important;
     height: 690px !important;
     width: 840px !important;
   }
 
   .home h1 {
     font-weight: 700;
-    margin-top: 5.5em !important;
+    margin-top: 7.5em !important;
     font-size: 60px !important;
     color: var(--primaryColor);
     white-space: nowrap;
@@ -143,29 +140,34 @@ body {
 }
 /* navbar */
 .navbar {
-  position: relative;
-  z-index: 1;
+  background-color: #242e6c;
 }
 span {
-  color: var(--primaryColor);
+  color: var(--secondaryColor);
   font-weight: 700;
   font-size: 1.5rem;
   margin-left: 0.3em;
 }
 .nav-link {
-  color: var(--primaryColor);
+  color: var(--tertiaryColor);
   font-weight: 400;
   margin-left: 2.4em;
 }
+.nav-link:hover {
+  color: var(--button);
+}
 /* contact button */
 .contact-button {
-  background-color: var(--primaryColor);
+  background-color: var(--button);
   color: white;
   border-radius: 2em;
   border: 0;
   padding-left: 1.5em;
   padding-right: 1.5em;
   margin-left: 3em;
+}
+.contact-button:hover {
+  background-color: #ffb9b6;
 }
 .btn-see {
   color: white;
@@ -194,7 +196,7 @@ span {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 70vmax;
-  height: 500px;
+  height: 580px;
   position: relative;
 }
 .jumbotron .container {
@@ -238,6 +240,9 @@ span {
 /* section margin */
 .section-margin {
   margin-top: 100px;
+}
+section {
+  scroll-margin-top: 90px;
 }
 /* about */
 .about {
